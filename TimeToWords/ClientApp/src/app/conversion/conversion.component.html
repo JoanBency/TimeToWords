@@ -1,0 +1,14 @@
+<div>
+  <h6>Time Conversion</h6>
+  <form>
+    <input type="text" id="time1" [(ngModel)]="time_num" placeholder="Enter time" />
+    <br /><br />
+    <input type="button" value="Submit" (click)="getTimeInWords(time_num)" />
+  </form>
+</div>
+<div *ngIf="time">
+  <h6>
+    The time is {{time.TimeinWords}}
+  </h6>
+</div>
+
