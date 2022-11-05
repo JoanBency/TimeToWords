@@ -1,1 +1,1 @@
-Sample readme
+A sample program which converts time in numbers to words which applies CICD using Jenkins.
