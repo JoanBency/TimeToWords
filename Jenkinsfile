@@ -14,7 +14,7 @@ pipeline{
         
         stage('Terraform Init'){
             steps{
-                sh label: '',script: 'echo "1"'
+                sh label: '',script: 'pwd'
             }
         }
         
