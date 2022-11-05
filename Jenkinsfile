@@ -2,7 +2,7 @@ pipeline{
     agent any
     
     tools {
-        terraform 'terraform-1008'
+        terraform 'jenkins-terraform'
     }
     
     stages{
