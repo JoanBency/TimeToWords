@@ -14,7 +14,7 @@ pipeline{
         
         stage('Terraform Init'){
             steps{
-                sh label: '',script: 'pwd'
+                sh label: '',script: 'bash /usr/local/bin/terraform init'
             }
         }
         
