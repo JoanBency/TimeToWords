@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage('Git Checkout'){
             steps {
-                git branch: 'main', credentialsId: 'aa733c53-a150-4e8e-912c-1ab8d2106d36', url: 'https://github.com/JoanBency/TimeToWords'
+                git branch: 'main', credentialsId: '276050c6-cd1b-423b-928c-969c14f2ca17', url: 'https://github.com/JoanBency/TimeToWords'
             }
         }
         
